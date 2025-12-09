@@ -1,35 +1,72 @@
 body {
   font-family: Arial, sans-serif;
   scroll-behavior: smooth;
-}
-
-.hero {
-  background: linear-gradient(to right, #0d6efd, #6610f2);
-  color: white;
-  padding: 140px 20px;
-}
-
-.hero h1 {
-  font-size: 3rem;
-  font-weight: bold;
-}
-
-.hero p {
-  font-size: 1.2rem;
+  background-color: #f8f9fa;
 }
 
 .section-padding {
   padding: 80px 20px;
 }
 
+
+.navbar {
+  background: rgba(0, 0, 0, 0.9) !important;
+  backdrop-filter: blur(6px);
+}
+
+.navbar-brand {
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.nav-link {
+  font-weight: 500;
+}
+
+
+.hero {
+  min-height: 90vh;
+  background: linear-gradient(135deg, #0d6efd, #6610f2);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero img {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid rgba(255, 255, 255, 0.4);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+
+.hero h1 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin-top: 20px;
+}
+
+.hero p {
+  font-size: 1.25rem;
+  opacity: 0.9;
+}
+
+
 .card {
   margin-top: 20px;
-  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: none;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
 }
 
 .card:hover {
-  transform: scale(1.05);
+  transform: translateY(-8px);
+  box-shadow: 0 15px 30px rgba(0,0,0,0.2);
 }
+
 
 .badge {
   margin: 5px;
@@ -37,6 +74,26 @@ body {
   font-size: 1rem;
 }
 
+
+.list-group-item {
+  font-size: 1.05rem;
+  padding: 15px;
+}
+
+
+#contact {
+  background-color: #111;
+  color: white;
+}
+
+#contact p {
+  margin-bottom: 8px;
+}
+
+
 footer {
+  width: 100%;
+  background-color: #111;
+  color: white;
   font-size: 0.9rem;
 }

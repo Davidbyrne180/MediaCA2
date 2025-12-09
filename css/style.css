@@ -1,13 +1,27 @@
+html, body {
+  height: 100%;
+}
+
 body {
   font-family: Arial, sans-serif;
   scroll-behavior: smooth;
   background-color: #f8f9fa;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
 }
 
 .section-padding {
-  padding: 80px 20px;
+  padding: 60px 20px;
 }
 
+.page-section {
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
 
 .navbar {
   background: rgba(0, 0, 0, 0.9) !important;
@@ -22,7 +36,6 @@ body {
 .nav-link {
   font-weight: 500;
 }
-
 
 .hero {
   position: relative;
@@ -63,7 +76,6 @@ body {
   min-width: 180px;
 }
 
-
 .card {
   margin-top: 20px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -76,19 +88,16 @@ body {
   box-shadow: 0 15px 30px rgba(0,0,0,0.2);
 }
 
-
 .badge {
   margin: 5px;
   padding: 10px 14px;
   font-size: 1rem;
 }
 
-
 .list-group-item {
   font-size: 1.05rem;
   padding: 15px;
 }
-
 
 #contact {
   background-color: #111;
@@ -99,12 +108,12 @@ body {
   margin-bottom: 8px;
 }
 
-
 footer {
   width: 100%;
   background-color: #111;
   color: white;
   font-size: 0.9rem;
+  margin-top: auto;
 }
 
 .experience-card {

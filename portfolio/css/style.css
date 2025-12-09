@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+  scroll-behavior: smooth;
+}
+
+.hero {
+  background: linear-gradient(to right, #0d6efd, #6610f2);
+  color: white;
+  padding: 140px 20px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.hero p {
+  font-size: 1.2rem;
+}
+
+.section-padding {
+  padding: 80px 20px;
+}
+
+.card {
+  margin-top: 20px;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.badge {
+  margin: 5px;
+  padding: 10px 14px;
+  font-size: 1rem;
+}
+
+footer {
+  font-size: 0.9rem;
+}

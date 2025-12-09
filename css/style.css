@@ -97,3 +97,29 @@ footer {
   color: white;
   font-size: 0.9rem;
 }
+
+.experience-card {
+  background: white;
+  border-radius: 12px;
+  padding: 25px;
+  margin-bottom: 30px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.experience-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+}
+
+.experience-card h4 {
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.experience-date {
+  display: block;
+  font-size: 0.9rem;
+  color: #6c757d;
+  margin-bottom: 15px;
+}

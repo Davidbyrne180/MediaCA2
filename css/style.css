@@ -141,3 +141,10 @@ footer {
   color: #6c757d;
   margin-bottom: 15px;
 }
+
+.page-background {
+  background: linear-gradient(135deg, #0d6efd15, #6610f215);
+  min-height: 100%;
+  width: 100%;
+}
+

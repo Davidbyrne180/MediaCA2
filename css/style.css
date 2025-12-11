@@ -5,9 +5,10 @@ html, body {
 body {
   font-family: Arial, sans-serif;
   scroll-behavior: smooth;
-  background-color: #f8f9fa;
+  background-color: transparent;
   display: flex;
   flex-direction: column;
+  min-height: 100vh;
 }
 
 main {
@@ -21,6 +22,13 @@ main {
 .page-section {
   padding-top: 40px;
   padding-bottom: 60px;
+}
+
+.page-background {
+  background: linear-gradient(135deg, #0d6efd, #6610f2);
+  flex: 1;
+  width: 100%;
+  padding-bottom: 40px;
 }
 
 .navbar {
@@ -141,10 +149,3 @@ footer {
   color: #6c757d;
   margin-bottom: 15px;
 }
-
-.page-background {
-  background: linear-gradient(135deg, #0d6efd15, #6610f215);
-  min-height: 100%;
-  width: 100%;
-}
-
